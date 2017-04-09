@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Series.h
+iostream
+-
+
+/home/leonel/Documentos/Series/src/Series.cpp
+Series.h
+/home/leonel/Documentos/Series/src/Series.h
+
+/home/leonel/Documentos/Series/src/main.cpp
+Series.h
+/home/leonel/Documentos/Series/src/Series.h
+
